@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+    
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .anggota-wrapper {
+    padding-bottom: 80px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    
+  }
+
+  /*.anggotas{
+      margin-bottom: 50px;
+  }*/
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    color: #424242;
+    text-align: center;
+  }
+  
+  .anggota {
+    float: left;
+    width: 100%;
+    
+  }
+  
+  .anggota-icon {
+    position: relative;
+  }
+  
+  .anggota-icon img{
+    width: 50%;
+  }
+  .anggota-icon p {
+    width: 100%;
+    font-weight: bold;
+    color:#37474F;
+    font-size: 20px;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #263238;
+    line-height: 25px;
+  }
+
+  .card{
+    width: 18%;
+    background-size: cover;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 10px;
+    margin-left: 20px;
+    float: left;
+    background-color: white;
+}
+.card .img img{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+}
+.profile{
+    text-align: center;
+    
+}
+
+.profile p{
+  text-align: justify;
+  padding:0 20px;
+  
+  
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    margin-top: -45px;
+    border-radius: 50%;
+    background-color: teal;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.profile img:hover{
+    transform: scale(1.1);
+}
+
+.profile h6{
+    margin-top: -18px;
+    color: grey;
+    letter-spacing: 4px;
+    padding: 1px 3px ;
+    
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 20px;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.6s;
+}
+
+.icons{
+    margin-left: 25px;
+}
+.icons a:hover{
+    color: teal;
+    transform: scale(1.5);
+}
