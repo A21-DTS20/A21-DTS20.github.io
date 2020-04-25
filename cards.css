@@ -176,7 +176,7 @@ a{
 }
 
 /*Responsive*/
-@media all and (min-width: 1000px){
+@media screen and (min-width: 1000px){
     .member-wrapper{
         flex-direction: row;
         flex-wrap: wrap;
@@ -216,13 +216,9 @@ a{
     }
 }
 
-@media all and (min-width: 670px){
+@media screen and (min-width: 670px){
     .member-wrapper{
-<<<<<<< HEAD
        
-=======
-        
->>>>>>> b6bc3b5b1155c67cd9dee853bbc66c5158438eef
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
