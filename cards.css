@@ -216,9 +216,8 @@ a{
     }
 }
 
-@media screen and (min-width: 670px){
+@media screen and (max-width: 670px){
     .member-wrapper{
-       
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -226,9 +225,10 @@ a{
     }
 
     .member{
+        width:100%;
         margin: 15px;
         transition: transform .5s;
-        width:25%;
+        
     }
 
     @keyframes fadeIn {
