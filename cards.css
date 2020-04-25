@@ -218,7 +218,11 @@ a{
 
 @media all and (min-width: 670px){
     .member-wrapper{
+<<<<<<< HEAD
        
+=======
+        
+>>>>>>> b6bc3b5b1155c67cd9dee853bbc66c5158438eef
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
