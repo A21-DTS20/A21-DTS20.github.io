@@ -176,7 +176,7 @@ a{
 }
 
 /*Responsive*/
-@media screen and (min-width: 700px){
+@media all and (min-width: 1000px){
     .member-wrapper{
         flex-direction: row;
         flex-wrap: wrap;
@@ -185,8 +185,9 @@ a{
     }
 
     .member{
-        margin: 2rem;
+        margin: 15px;
         transition: transform .5s;
+        width:25%;
     }
 
     @keyframes fadeIn {
@@ -214,6 +215,47 @@ a{
         
     }
 }
+
+@media all and (min-width: 670px){
+    .member-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .member{
+        margin: 15px;
+        transition: transform .5s;
+        width:50%;
+    }
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+        .member:nth-child(1){
+            animation: fadeIn .5s .5s backwards;
+        }
+        .member:nth-child(2){
+            animation: fadeIn .5s 1s backwards;
+        }
+        .member:nth-child(3){
+            animation: fadeIn .5s 1.5s backwards;
+        }
+        .member:nth-child(4){
+            animation: fadeIn .5s 2s backwards;
+        }
+    .member:hover{
+        transform: scale(1.05);
+        
+    }
+}
+
 
 .artikel{
     padding: 80px 0;
