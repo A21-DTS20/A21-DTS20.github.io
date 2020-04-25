@@ -55,7 +55,8 @@
     }
 
     .menu-icon{
-      display:block;
+      display:block !important;
+      margin-top: 5px;
     }
     
     .top-wrapper h1 {
