@@ -137,6 +137,7 @@ a{
 
 /*Sosmed*/
 .sosmed{
+    font-size: 40px;
     width: 100%;
     list-style: none;
     display: flex;
@@ -147,7 +148,7 @@ a{
 }
 
 .sosmed i{
-    font-size: 3rem;
+    
     transition: color .5s;
 }
 
