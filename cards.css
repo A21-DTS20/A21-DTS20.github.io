@@ -218,6 +218,7 @@ a{
 
 @media all and (min-width: 670px){
     .member-wrapper{
+        width:100%;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
