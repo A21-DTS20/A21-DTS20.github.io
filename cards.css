@@ -218,7 +218,7 @@ a{
 
 @media all and (min-width: 670px){
     .member-wrapper{
-        width:100%;
+        
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -228,7 +228,7 @@ a{
     .member{
         margin: 15px;
         transition: transform .5s;
-        width:50%;
+        width:25%;
     }
 
     @keyframes fadeIn {
