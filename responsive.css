@@ -67,6 +67,10 @@
     .menu-icon{
       display:block;
     }
+
+    .menu-icon:hover{
+      background-color: rgba(34, 49, 52, 0.9);
+    }
     
     .top-wrapper h1 {
       font-size: 24px;

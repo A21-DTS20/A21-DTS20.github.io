@@ -149,8 +149,10 @@ header {
   color: #fff;
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
+  top: 0;
   z-index: 1000;
 }
+
 
 .header-left{
   float: left;
@@ -165,9 +167,16 @@ header {
 
 .header-right{
   float: right;
-  margin-top: 22px;
   margin-right: 20px;
   color: #f7f7f7;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right li{
@@ -175,18 +184,22 @@ header {
   list-style: none;
   float: left;
   margin-left: 20px;
-  margin-top: 5px;
   color: white;
 }
 
-.header-right li a:hover{
-  color: #4DD0E1;
-    
-  /* background-color: #f7f7f7; */
+.header-right a:hover{
+background-color: rgba(288, 288, 288, 1);
+color: teal;
 }
 
-.header-right li a:visited{
-  color: #f7f7f7;
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 50px;
+  padding: 21px 0;
+  display:none;
 }
 
 footer{  
@@ -201,9 +214,6 @@ footer h4{
   font-weight: normal;
   text-align: center;
   padding-top: 25px;
-}
-.kanan{
-    color:#f7f7f7;
 }
 
 .menu-icon {
