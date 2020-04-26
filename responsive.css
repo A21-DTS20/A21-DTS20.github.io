@@ -48,6 +48,16 @@
     .top-wrapper {
       text-align: left;
     }
+
+    .banner-wrapper h4 h1{
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .banner-wrapper p{
+      font-size: 14px;
+      line-height: 20px;
+    }
     
     /* Tambahkan CSS untuk header-right */
     .header-right{

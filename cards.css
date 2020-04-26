@@ -331,3 +331,9 @@ padding: 0 15px;
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/* MUNIR COVER */
+.hallo{
+    border: solid 20px white;
+    position: static;
+}
