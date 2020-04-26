@@ -217,14 +217,34 @@ footer h4{
 
 /* MAIN PAGE */
 .banner-wrapper{
-  height: 400px;
+  height: 700px;
   background-image: url(assets/top.jpg);
   background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
   text-align: center;
   color: white;
   padding: 180px 0px 100px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+
+.banner-wrapper h4{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  
+}
+
+.banner-wrapper h1{
+font-size: 50px;
+padding-bottom: 40px;
+}
+
+.banner-wrapper p{
+  font-family: "Roboto",sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
 }
 
 /* AKHIR MAIN PAGE */
