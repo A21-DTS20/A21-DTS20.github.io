@@ -67,11 +67,12 @@
     .menu-icon{
       display:block;
     }
-
-    .menu-icon:hover{
-      background-color: rgba(34, 49, 52, 0.9);
+    .fa-bars{
+    height: 60px;
+    margin-top: 5px;
+    right: 30px;
+    position: absolute;
     }
-    
     .top-wrapper h1 {
       font-size: 24px;
       line-height: 36px;
