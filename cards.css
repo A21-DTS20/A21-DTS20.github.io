@@ -226,7 +226,7 @@ a{
     }
 
     .member{
-        width:100%;
+        width:100% !important; /*ditambah important*/
         margin: 15px;
         transition: transform .5s;
         
@@ -257,6 +257,7 @@ a{
         
     }
 }
+
 
 @media screen and (max-width: 720px){
     .member-wrapper{
